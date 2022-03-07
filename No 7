@@ -1,0 +1,32 @@
+// Find the value of the variable result after executing the following sentences:
+int a;
+int b;
+int result;
+
+a) a = 4;
+b = 12;
+result = a + b / 3; (result = 8)
+
+b) a = 3;
+a = a + 3;
+b = 2;
+result = a – b; (result = -6)
+
+c) a = 2;
+b = a + 1;
+a = b + 2;
+result = a + b + a;
+result = -result; (result = -13)
+
+d) a = 3;
+b = 11;
+result = (b % a) + 1; (result = 3)
+
+e) a = 3;
+b = a++;
+result = 1;
+result += a – b; (result = 2)
+
+f) String s = “jjj”;
+String t = “xxx”;
+String result2 = s + s + t; (result = jjjjjjxxx)
