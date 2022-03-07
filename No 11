@@ -1,0 +1,15 @@
+package com.company;
+
+public class IntVar {
+    public static void main(String[] args)
+    {
+        int a = 4; //set a and b
+        int b = 2;
+        System.out.println(String.format("Before: a = %d, b = %d", a, b)); //a
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println(String.format("After: a = %d, b = %d", a, b));
+    }
+
+}
